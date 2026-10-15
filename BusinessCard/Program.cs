@@ -11,5 +11,5 @@ Console.WriteLine("Leukste Olod: Weekend");
 
 
 
-
+Console.ForegroundColor = ConsoleColor.Yellow;
 Console.WriteLine("Vriendelijk groetjes van Willem!");
