@@ -1,4 +1,6 @@
-﻿Console.ForegroundColor = ConsoleColor.DarkRed;
+﻿using Figgle.Fonts;
+
+Console.ForegroundColor = ConsoleColor.DarkRed;
 
 string ascii = """
           _       _                  _       _
@@ -26,4 +28,6 @@ Console.WriteLine("+-------------------------------+");
 
 
 Console.ForegroundColor = ConsoleColor.Yellow;
-Console.WriteLine("Vriendelijk groetjes van Willem!");
+string output = FiggleFonts.Speed.Render("Willem!");
+Console.WriteLine(output);
+Console.ResetColor();
